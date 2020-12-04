@@ -20,7 +20,7 @@ machine_translated_rev: 71d72c1f237f4a553fe91ba6c6c633e81a49e35b
 -   [`groupArrayArray`](../../sql-reference/aggregate-functions/reference.md#agg_function-grouparray)
 -   [`groupUniqArrayArray`](../../sql-reference/aggregate-functions/reference.md#groupuniqarrayx-groupuniqarraymax-sizex)
 
-的值 `SimpleAggregateFunction(func, Type)` 看起来和存储方式相同 `Type`，所以你不需要应用函数 `-Merge`/`-State` 后缀。 `SimpleAggregateFunction` 具有比更好的性能 `AggregateFunction` 具有相同的聚合功能。
+的值 `SimpleAggregateFunction(func, Type)` 看起来和存储方式相同 `Type`，所以你不需要应用函数 `-Merge`/`-State` 后缀。 对于相同的聚合函数，`SimpleAggregateFunction` 比`AggregateFunction` 性能更好。
 
 **参数**
 
