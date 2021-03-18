@@ -3,7 +3,7 @@ machine_translated: true
 machine_translated_rev: 5decc73b5dc60054f19087d3690c4eb99446a6c3
 ---
 
-# 系统。trace_log {#system_tables-trace_log}
+# system.trace_log {#system_tables-trace_log}
 
 包含采样查询探查器收集的堆栈跟踪。
 
